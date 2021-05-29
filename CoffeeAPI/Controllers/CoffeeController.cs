@@ -1,13 +1,9 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 
 namespace CoffeeAPI.Controllers
 {
-    [ApiController]
+  [ApiController]
     [Route("[controller]")]
     public class CoffeeController : ControllerBase
     {
