@@ -1,10 +1,17 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+
 namespace TeaAPI.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class TeeController : ControllerBase
+    public class TeaController : ControllerBase
     {
-        private static readonly string[] Coffees = new[]
+        private static readonly string[] Teas = new[]
         {
             "Green", "Peppermint", "Earl Grey", "English Breakfast", "Camomile"
         };
